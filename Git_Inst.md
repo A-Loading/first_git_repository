@@ -16,5 +16,6 @@ git config --global user.
 | git merge | обединяет ветвления в вашу текущюю ветку | - |
 | git remote | установка отслеживаемых репозиториев | add [-t <branch>] [-m <master>] <name> <URL> установка ; -v отображение установок ; SHOW развёрнутая информация|
 | git clone | копировать репозиторий из | <репозиторий> (путь или из ремоут URL или анотация из команды выше)|
-| git pull ] | получить репозиторий из вне | [<options>] [<repository> [<refspec>…​] |
+| git pull ] | получить репозиторий из вне | [<options>] [<repository> [<refspec>…​] ;--rebase (получить с наложением)|
 |git push|отправка репозитория| --<options> <repository> |
+|git-rebase|Reapply commits on top of another base tip нов поверх старых комит| (--continue ; --skip ; --abort ; --quit ; --edit-todo ; --show-current-patch)|
