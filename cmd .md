@@ -26,3 +26,5 @@ RM <<File>>
 ```sh
 touch <<arg>> <<File>>
 ```
+
+echo "text">>FILE   >> (to file)
